@@ -7,3 +7,12 @@ h1 {
     font-size: xx-large;
     
 }
+button {
+    width: 100px;
+    height: 100px;
+    background: green;
+    transition: width 4s
+}
+button:hover {
+    width: 300px;
+}
